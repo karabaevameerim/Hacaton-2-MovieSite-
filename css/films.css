@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Chivo+Mono:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+body{
+    background-color: black;}
+/* !-start nav */
+
+    nav {
+        margin-top: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+      }
+      
+      
+      nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        color: white;
+        font-weight: bold;
+    
+      }
+      
+       nav ul:nth-child(2) {
+        width: 40%;
+    }
+    nav p {
+        color: gold;
+        font-family: 'Cinzel Decorative', cursive;
+    font-size: 28px;
+    margin-top: 5px;
+    }
+    nav  a  {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+    .hover:hover{
+        cursor: pointer;
+        border: 1px solid rgba(0, 0, 255, 0.799);
+        width: 100px;
+        height: 20px;
+        text-align: center;
+       
+    }
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+    
+ }
+ .nav-r{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+ }
+.nav p{
+font-family: 'Cinzel Decorative', cursive;
+font-size: 24px;
+}
+/* ? finish nav */
+/* ! start add block */
+.add-block {
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+  .inputs {
+    width: 165px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.888);
+    border: 2px solid black;
+    transition: 0.3s;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .inputs:hover {
+    transition: 0.1s;
+    border-radius: 5px;
+   }
+  
+  #btnCreate {
+    width: 170px;
+    height: 42px;
+    color: black;
+    cursor: pointer;
+    border: 2px solid gold;
+    transition: 0.3s;
+    text-align: center;
+    border-radius: 5px;
+    background-color:  white ;
+  }
+  
+  #btnCreate:hover {
+    background-color: rgba(255, 217, 0, 0.916);
+    color: black;
+    transition: 0.3s;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  /* ? finish add block */
+  /* !----------start Main-block/search&filtrer------------- */
+  .main-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .filter_btns {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .filter_btn {
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid;
+    transition: 0.3s;
+  }
+  .filter_btn:hover {
+    background-color: black;
+    color: gold;
+  }
+
+
+.search-box{
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 2px solid goldenrod;
+    background-color: black;
+    border-radius: 4px;
+    padding: 12px 20px 12px 10px;
+    margin-bottom: -15px;
+    margin-right: 40px;
+ 
+    
+    
+}
+.search-box:hover{
+    border: 2px solid rgba(0, 0, 255, 0.772);
+}
+.search{
+    color: white;
+    background-color: black;
+    max-width: 100%;
+    width: 80%;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    /* text-align: center; */
+}
+/* ? finish Main-block/search&filtrer  */
+/* ! start cards  */
+#movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+  }
+  
+  .movie-f {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  .poster {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .movie-f h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+  }
+  
+   .movie-f h5 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .movie-f button{
+    background-color: black;
+    border: 1px solid white;
+    color: #fff;
+  }
+  .movie-f button:hover {
+    background-color: #005ea6;
+  }
+  /* ?-------Finish cards------------  */
+  /* !------StarteditModal ------------*/
+#modal{
+    display: none;
+    position: fixed;
+    top:330px;
+    left: 520px;
+    padding-bottom: 20px;
+    width: 500px;
+    border: 2px solid white;
+    background-color: rgba(128, 128, 128, 0.495);
+}
+#editForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    /* text-align: center; */
+    margin: 0 auto;
+     /* padding-left: 10px; */
+}
+#editForm h1 {
+color: #fff;
+text-shadow: 2px 2px 2px black;
+}
+#editForm input {
+    width: 60%;
+    height: 28px;
+    border-radius: 5px;
+    border: none;
+}
+#editForm input:hover{
+    background-color: black;
+    border: 2px solid goldenrod;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.save{
+    border: none;
+    width: 20%;
+    height: 30px;
+    background-color: darkgrey;
+    
+}
+.save:hover{
+    background-color: black;
+    border: 2px solid goldenrod;
+    color: #fff;
+    cursor: pointer;
+}
+#closeEditModal{
+    position: absolute;
+    left: 476px;
+    /* display: flex; */
+    background-color: rgba(150, 146, 146, 0.623);
+}
+/* ?------FeditModal ------------*/
+/* !------Start detailModel------------ */
+#showModal {
+  display: none;
+  align-items: center;
+  padding: 15px;
+  /* height: 700px; */
+  max-width: 70%;
+  width: 50%;
+  margin: 25px auto;
+  border: 2px solid black;
+  background-color: rgba(240, 248, 255, 0.84);
+  position: fixed;
+  top: 8%;
+  left: 15%;
+border-radius: 15px;
+
+}
+
+#detailModalImg {
+  width: 50%;
+  height: 100%;
+  border: none;
+  border-radius: 15px;
+
+}
+
+#detailmodal-r {
+  margin-top: 20px;
+}
+
+#modalRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 64px;
+  padding-right: 60px;
+  margin-top: 30px;
+}
+#modalRight h1{
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+  font-family: 'Bodoni Moda', serif;
+  font-family: 'Chivo Mono', monospace;
+}
+
+#modalRight h2 {
+  font-size: 32px;
+  margin-bottom: 36px;
+  font-family: 'Bodoni Moda', serif;
+}
+
+#modalRight h3 {
+  font-weight: 500;
+  font-size: 24px;
+  color: black;
+  margin: 15px 0;
+}
+
+#modalRight p {
+      font-size: 20px;
+      text-align: center;
+}
+#closeBtn{
+  background-color: rgba(240, 248, 255, 0.84);
+  border: none;
+      position: absolute;
+      top: - 10px;
+      right: 2%;
+      top: 2%;
+}
+
+/* ? finish detailModel */
+/* !--------start pagination---------- */
+.pag{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; 
+ } 
+/* .pagBtn{
+  width: 80px;
+  height: 40px;
+ margin-right: 10px;
+ border: 2px solid white;
+ background-color: black;
+ color: #fff;
+ font-size: 16px;
+ font-weight: bold;
+} */
+#btn-prev{
+  width: 80px;
+  height: 40px;
+ margin-right: 10px;
+ border: 2px solid black;
+ background-color: white;
+ color: black;
+ font-size: 16px;
+ font-weight: bold;
+}
+#btn-next{
+  width: 80px;
+  height: 40px;
+ margin-right: 10px;
+ border: 2px solid white;
+ background-color: black;
+ color: #fff;
+ font-size: 16px;
+ font-weight: bold;
+}
+.pagBtn:hover{
+  cursor: pointer;
+}
+/* ?--------start pagination---------- */

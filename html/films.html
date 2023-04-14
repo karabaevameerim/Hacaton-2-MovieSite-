@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieList</title>
+    <!-- <link rel="stylesheet" href="../css/main.css" /> -->
+    <link rel="stylesheet" href="../css/films.css" />
+  </head>
+  <body>
+    <!-- !start nav -->
+    <nav>
+      <div>
+        <p>lookEnjoy</p>
+      </div>
+      <ul>
+        <li class="hover"><a href="../main.html">Главная</a></li>
+        <li class="hover">Фильмы</li>
+        <li class="hover"><a href="../html/aboutus.html"> О нас</a></li>
+        <li class="hover">Контакты</li>
+      </ul>
+      <ul>
+        <li>
+          <div class="search-box">
+            <img
+              style="width: 20px; height: 20px"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQNHOei1wkVPjHYCGMGurtuWnvCPBDkucu7YgJaIR3T3XeLiKH8I2AZBV9yxuCLfOGBlQ&usqp=CAU"
+              alt=""
+            />
+            <input
+              class="search"
+              name="search"
+              placeholder="Search..."
+              type="text"
+            />
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <!-- ?-----------finish nav  ----------->
+    <!--!-------------------------start form------------------------ -->
+    <div class="cont add-block">
+      <form>
+        <div class="Inputs">
+          <input placeholder="name" type="text" id="inpName" class="inputs" />
+          <input placeholder="Image" type="url" id="inpImg" class="inputs" />
+          <input placeholder="Year" type="number" id="inpYear" class="inputs" />
+          <input
+            placeholder="description"
+            type="text"
+            id="inpDesc"
+            class="inputs"
+          />
+          <input placeholder="Genre" type="text" id="inpJanr" class="inputs" />
+          <button id="btnCreate">+Add</button>
+        </div>
+      </form>
+    </div>
+    <!-- !------------------------------------ end form-------------------------------- -->
+    <!--  ----------------start Main-block/search&filtrer-------------- -->
+    <div class="main-block">
+      <div class="filter_btns">
+        <button class="filter_btn" id="btn1">All</button>
+        <button class="filter_btn" id="btn2">Horror</button>
+        <button class="filter_btn" id="btn3">Comedy</button>
+        <button class="filter_btn" id="btn4">action</button>
+        <button class="filter_btn" id="btn5">Fantasy</button>
+        <button class="filter_btn" id="btn6">Romans</button>
+      </div>
+    </div>
+    <!--  ----------------finish Main-block/search&filtrer-------------- -->
+    <div id="movies"></div>
+    <!-- !START EDIT MODAL -->
+    <div id="modal" class="editModal">
+      <button id="closeEditModal">X</button>
+      <form id="editForm" class="formEdit">
+        <h1>Change your MovieList</h1>
+        <input
+          type="text"
+          placeholder="Name"
+          class="editInps"
+          id="editInpName"
+        />
+        <input
+          type="url"
+          placeholder="Image"
+          class="editInps"
+          id="editInpImage"
+        />
+        <input
+          type="number"
+          placeholder="Year"
+          class="editInps"
+          id="editInpYear"
+        />
+        <input
+          type="text"
+          placeholder="Description"
+          class="editInps"
+          id="editInpDesc"
+        />
+        <input
+          type="text"
+          placeholder="Genre"
+          class="editInps"
+          id="editInpGenre"
+        />
+        <button class="save" type="submit">save changes</button>
+      </form>
+    </div>
+    <!-- ?finish EDIT MODAL -->
+    <!-- ! Start Detailmodal -->
+    <div id="showModal">
+      <img
+        max-width="500px"
+        min-width="500px"
+        id="detailModalImg"
+        src="https://cinematica.kg/uploads/movies/2ff8b3bd-4391-45d2-8981-9690f3f432a9.jpg/300/430"
+        alt="profPic"
+      />
+
+      <div id="detailmodal-r">
+        <button id="closeBtn">X</button>
+        <div id="modalRight">
+          <h2>Name</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique
+            debitis ut error tempore dignissimos, odio quas sunt fugiat harum
+            libero in rerum recusandae, modi nesciunt, numquam provident.
+            Eligendi, labore?
+          </p>
+          <h1>Years</h1>
+          <h3>Genre</h3>
+        </div>
+      </div>
+    </div>
+    <!-- ? Finish Detailmodal -->
+    <!-- !SpagBtn -->
+    <div class="pag">
+      <button id="btn-prev" class="pagBtn">prev</button>
+      <button id="btn-next" class="pagBtn">next</button>
+    </div>
+    <!-- ?FpagBtn -->
+    <script src="../js/main.js"></script>
+  </body>
+</html>

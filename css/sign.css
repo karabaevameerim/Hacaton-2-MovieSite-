@@ -1,0 +1,55 @@
+body{
+    background: url(https://www.wkbn.com/wp-content/uploads/sites/48/2022/05/Summer-Movie-Comeback.jpg?w=1280);
+}
+.inpSign{
+    position: fixed;
+    top:180px;
+    left: 540px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.79);
+    border-radius: 15px;
+    border: 2px solid gold;
+    color: white;
+}
+.inpSign h1{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+.inpText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+.inpText input{
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 250px;
+    height: 35px;
+    border-radius: 8px; 
+    border: 1px solid rgba(0, 0, 0, 0.701);
+    outline: none;
+}
+.inpText input:hover{
+cursor: pointer;
+border: 2px solid purple;
+}
+
+.inpText button{
+    width: 50%;
+   margin: 0 auto;
+   height: 30px;
+   margin-bottom: 10px;
+   border-radius: 8px; 
+   border: 1px solid purple;
+   background-color:rgba(255, 0, 255, 0.224);
+   /* opacity: 0.7; */
+   font-weight: bold;
+   font-size: 14px;
+   color: black;
+}

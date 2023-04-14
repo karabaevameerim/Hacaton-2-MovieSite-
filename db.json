@@ -1,0 +1,132 @@
+{
+  "movie": [
+    {
+      "name": "My beautiful misfortune",
+      "image": "https://cinematica.kg/uploads/movies/94fab9c3-ff3d-4450-bb9c-36509511dc9c.jpeg/300/430",
+      "year": "Year: 2022",
+      "description": "Freshman Abby Abernathy is a diligent girl. There is no place in her life for parties and alcohol, only studying and collecting cute cardigans. She is sure that she left the dark secrets of the past far behind.",
+      "category": "Romans",
+      "id": 2
+    },
+    {
+      "name": "AIR: Big jump",
+      "image": "https://cinematica.kg/uploads/movies/2ff8b3bd-4391-45d2-8981-9690f3f432a9.jpg/300/430",
+      "year": "Year: 2022",
+      "description": "Ben Affleck's superbly crafted drama “Air” lands like a classic Michael Jordan dunk – you can even imagine Affleck’s tongue wagging and legs splayed in mid-jump akin to his Airness.",
+      "category": "Drama",
+      "id": 3
+    },
+    {
+      "name": "Bureau of Magical Services",
+      "image": "https://www.themoviedb.org/t/p/w500/13vxQsJSqpEylE7zrhNvZaYuTIs.jpg",
+      "year": "Year: 2022",
+      "description": "The most ordinary clerks work in a very unusual firm. Here they unravel the strangest incidents and search for magical artifacts. An unremarkable couple of interns - mid-level performers - do not even suspect what they got into, and only think about how to deal with the routine before dinner, preferably without changing the course of history.",
+      "category": "Fantasy",
+      "id": 7
+    },
+    {
+      "name": "John Wick 4",
+      "image": "https://cinematica.kg/uploads/movies/f44dc0af-ce7e-4df8-9c95-829425e6b19f.jpg/300/430",
+      "year": "Year: 2022",
+      "description": "John Wick finds a way to defeat the Clan High. However, before he can earn his freedom, he must face off against a new enemy and his powerful allies.",
+      "category": "action",
+      "id": 8
+    },
+    {
+      "name": "Azhar",
+      "image": "https://cinematica.kg/uploads/movies/c5b63025-683e-4f49-a932-cbd0ab05f6c1.jpeg/300/430",
+      "year": "Year: 2022",
+      "description": "For the first time in the history of Kyrgyzstan, a full-length historical film based on the novel by Kasymal Bayalinov Azhar was shot. The director of the film is Nurkamil Kurmankulov, 'said the organizers of the screening.",
+      "category": "Horror",
+      "id": 9
+    },
+    {
+      "name": "Dungeons & Dragons.",
+      "image": "https://static.metacritic.com/images/products/movies/9/87cafaef5b310285c38bbf8d9c3131ea.jpg",
+      "year": "Year: 2022",
+      "description": "A gang of thieves decides to steal a relic that was thought to be lost.",
+      "category": "Fantasy",
+      "id": 10
+    },
+    {
+      "name": "Renfield",
+      "image": "https://cinematica.kg/uploads/movies/9d5460e3-4ffa-4f3d-989a-1caf014c9db2.jpg/300/430",
+      "year": "Year: 2022",
+      "description": "Renfield, a loyal servant of Count Dracula, is trying to settle down in New Orleans. He wants to get rid of the power of the vampire, but the owner does not like it.",
+      "category": "Horror",
+      "id": 11
+    },
+    {
+      "name": "Be afraid of your desires",
+      "image": "https://www.film.ru/sites/default/files/movies/posters/50410734-2308908.jpeg",
+      "year": "Year: 2022",
+      "description": "Silent loser Claire receives an old box as a gift from her father. To her surprise, it turns out that the box can grant wishes. Now she will get even with everyone who laughed at her. Wishes come true, but not exactly as Claire intended, and with each new wish, the consequences become more terrible. What other payment will the box ask for in return, and what kind of ancient evil is hidden in it?",
+      "category": "Horror",
+      "id": 12
+    },
+    {
+      "name": "Family to choose from",
+      "image": "https://cdn.shopify.com/s/files/1/0548/8404/0870/products/TheFamilyComedy-PersonalizedMoviePoster_b59527ba-7360-415b-98b3-33b4086e7c06_1200x.jpg?v=1617385439",
+      "year": "Year: 2022",
+      "description": "Genealogy consultant Olivia finds herself trapped between a man she likes and his family, who mistakenly think she is a long-lost relative. As an orphan, Olivia found herself in an ideal family situation.",
+      "category": "Comedy",
+      "id": 13
+    },
+    {
+      "name": "Survival game",
+      "image": "https://upload.wikimedia.org/wikipedia/ru/2/2b/Ready_or_Not_2019_film_Russian_poster.jpg",
+      "year": "Year: 2022",
+      "description": "The Texas town hosts an annual endurance competition. Twenty participants gather around the main prize - a brand new SUV. The last one to take his hand off him will get the car and fame.",
+      "category": "Horror",
+      "id": 14
+    },
+    {
+      "name": "Carrot love.",
+      "image": "https://cinematica.kg/uploads/movies/76f25744-71c5-43d1-8fca-f9db9a4b242e.jpg/300/430",
+      "year": "Year: 2022",
+      "description": "At the wedding, the Golubevs swore eternal love to each other. Over time, the passion left, and career, life, friends and personal hobbies took its place. They swear more and more over trifles, spend less and less time together ...",
+      "genre": "Romans",
+      "id": 15
+    },
+    {
+      "name": "65",
+      "image": "https://cinematica.kg/uploads/movies/f7f2d453-8925-47fd-87b0-91619221f824.jpg/300/430",
+      "year": "Year: 2022",
+      "description": "After a crash on an unknown planet, pilot Mills quickly discovers that he's actually stuck on Earth... 65 million years ago. Now, with only one chance to escape, Mills and the last surviving Koa must make their way through an unknown area infested with dangerous creatures.",
+      "category": "Drama",
+      "id": 16
+    },
+    {
+      "name": "Paranormal activity. ghost hotel",
+      "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71SH1ZPPIZL._AC_UF894,1000_QL80_.jpg",
+      "year": "Year: 2022",
+      "description": "A popular video blogger who runs a channel where he reveals the secrets of paranormal phenomena and arranges practical jokes, goes with a group of friends for a weekend in the mountains. He wants to play a prank on his old school buddies, but his usual prank stream turns into a real confrontation with otherworldly forces when an evil demon appears in their hotel.",
+      "category": "Horror",
+      "id": 17
+    },
+    {
+      "name": "Three thousand years of desire",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a601349b-fc12-490f-aba8-bc12e99ea522/136x204",
+      "year": "Year: 2022",
+      "description": "Genie gets to a literary critic who wants nothing. Romantic fantasy directed by Mad Max",
+      "category": "Fantasy",
+      "id": 18
+    },
+    {
+      "name": "Triangle of sadness",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/947395dd-db55-4eb2-a90e-4a25a5b66287/136x204",
+      "year": "Year: 2022",
+      "description": "A couple of models Karl and Yaya go on a luxury yacht cruise in the company of wealthy passengers, where you can meet a Russian businessman, British arms manufacturers, and an IT genius. The captain of the ship is a Marxist who is on a permanent drinking binge. So far, everything goes on as usual: the guests are resting, the staff is working, the wife of a Russian businessman is acting weird. But soon an unexpected event will occur that will overturn the established order and force some to rethink their place and significance.",
+      "category": "Horror",
+      "id": 19
+    },
+    {
+      "name": "Tower",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/21625a72-ee34-4151-aa9c-844c40f610fd/136x204",
+      "year": "Year: 2022",
+      "description": "After Dan's death as a result of a fall from a cliff, his wife Becky, who was previously fond of extreme entertainment, fell into depression. A year later, the girl still cannot recover and regularly fills her grief with alcohol when her old fighting friend Hunter suddenly appears in her life.",
+      "category": "action",
+      "id": 20
+    }
+  ]
+}

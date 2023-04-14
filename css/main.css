@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+body{
+    background: url('https://img5.goodfon.ru/wallpaper/nbig/c/38/soprotivlenie-vendetta-maska-tekstura-nadpisi-politsiia-zapr.jpg');
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+
+nav {
+    margin-top: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+  
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+
+  }
+  
+   nav ul:nth-child(2) {
+    width: 40%;
+}
+nav p {
+    color: gold;
+    font-family: 'Cinzel Decorative', cursive;
+font-size: 28px;
+margin-top: 5px;
+}
+nav  a  {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.hover:hover{
+    cursor: pointer;
+    border: 1px solid green;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+   
+}
+.container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 170px;
+    margin-left: 420px;
+    width: 500px;
+    height: 100px;
+}
+section {
+    border: 1px solid gold;
+    background-color: rgba(218, 165, 32, 0.776);
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(135deg, gold 0%, purple 50%, green 100%);
+}
+.container p {
+    font-size: 8px;
+}
+ .text-decor:hover{
+font-size: 18px;
+font-weight: bold;
+margin-top: -10px;
+
+ }
